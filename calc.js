@@ -23,4 +23,8 @@ function calculateCost() {
                       (appliances * prices.appliance);
 
     document.getElementById('result').innerText = `Total Cost: Rs${totalCost}`;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4a17bd0108d127a613838a425f340eb2fbc2e80e
