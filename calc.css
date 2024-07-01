@@ -1,21 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
 .container {
-    background: white;
+    background: rgb(250, 248, 248);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust max-width for larger screens */
+    height: 500px;
+    margin: 20px auto;
 }
 
 h1 {
@@ -55,4 +64,12 @@ button:hover {
 #result {
     margin-top: 20px;
     font-size: 1.2em;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Pushes footer to the bottom */
+    width: 100%;
 }
