@@ -52,6 +52,7 @@ nav ul li a {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 2rem;
+    margin-right: 2rem;
 }
 
 .about-details .about-image {
