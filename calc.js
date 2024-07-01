@@ -19,5 +19,5 @@ function calculateCost() {
                       (livingrooms * prices.livingroom) +
                       (appliances * prices.appliance);
 
-    document.getElementById('result').innerText = `Total Cost: Rs${totalCost}`;
+    document.getElementById('result').innerText = Total Cost: Rs${totalCost};
 }
