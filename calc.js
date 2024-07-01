@@ -1,9 +1,12 @@
+
+
+
 const prices = {
-    bedroom: 5000,
-    bathroom: 3000,
-    kitchen: 7000,
-    livingroom: 4000,
-    appliance: 1500
+    bedroom: 50000,
+    bathroom: 30000,
+    kitchen: 70000,
+    livingroom: 40000,
+    appliance: 150000
 };
 
 function calculateCost() {
@@ -20,4 +23,8 @@ function calculateCost() {
                       (appliances * prices.appliance);
 
     document.getElementById('result').innerText = `Total Cost: Rs${totalCost}`;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4a17bd0108d127a613838a425f340eb2fbc2e80e
