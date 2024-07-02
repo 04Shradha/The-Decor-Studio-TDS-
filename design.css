@@ -5,7 +5,7 @@
  }
 
 body{
-    height: 750px;
+    height: 880px;
     width: 100%;
     background-color: #0ab752;
     background-image: url('./logsignimage/living-room-d-1689150613-oIGOU.jpg'); /* Ensure the path is correct */
@@ -26,6 +26,18 @@ body{
     text-align: center;
     padding-top: 4px;
   }
+
+  .m1{
+    padding: 50px;
+}
+ .t1{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.t1 p{
+    font-size: 20px;
+}
 
 .categories-container {
     display: grid;
@@ -163,4 +175,8 @@ a{
 
 .footer-links a:hover {
   color: #f8f9fa;
+}
+
+.col-md-3 ul li a {
+  text-decoration: none;
 }

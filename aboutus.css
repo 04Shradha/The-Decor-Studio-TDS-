@@ -148,3 +148,6 @@ body {
   .footer-links a:hover {
     color: #f8f9fa;
   }
+  .col-md-3 ul li a {
+    text-decoration: none;
+  }

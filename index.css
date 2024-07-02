@@ -1,5 +1,8 @@
+.h1 {
+  text-align: center;
+}
 m1{
-  padding: 50px;
+  padding: 80px;
   text-align: center;
 }
 .t1 h2{
@@ -15,9 +18,74 @@ m1{
 .d1 div{
   width: 150px;
 }
+
 .line{
   text-align: center;
 }
+
+.m2{
+  padding: 50px;
+  text-align: center;
+}
+.t2 h1{
+  width: 100%;
+  margin: 25px 0 40px 0;
+  font-size: 45px;
+}
+.d2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.d2 div{
+  width: 600px;
+  text-align: left;
+}
+.d2 div a{
+  text-decoration: none;
+  color: #FA255E;
+}
+.d2 div img{
+  border-radius: 5px;
+  display: block;
+  margin: 0 0 20px 0;
+}
+.d2 div p{
+  margin: 20px 0 30px 0;
+  font-size: 16px;
+}
+
+.m4{
+  padding: 50px;
+  text-align: center;
+}
+.t4 h1{
+  font-size: 45px;
+  margin: 0 0 50px 0;
+}
+.d4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.d4 div{
+  width: 150px;
+  font-size: 14px;
+}
+
+.last {
+  text-align: center;
+}
+.last input[type="button"] {
+  background-color: #FA255E;
+  border-radius: 20%;
+  padding: 15px;
+  color: #fff;
+}
+.last input[type="button"] {
+  background-color: #FA2540;
+}
+
 .footercontainer {
     padding-top: 50px;
     background-color: aliceblue;
@@ -61,10 +129,15 @@ m1{
   }
   
   .footer-links a {
-    color: black;
     text-decoration: none;
   }
   
   .footer-links a:hover {
     color: #f8f9fa;
   }
+
+  .col-md-3 ul li a {
+    text-decoration: none;
+  }
+
+  
